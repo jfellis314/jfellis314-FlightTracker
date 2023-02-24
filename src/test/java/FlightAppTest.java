@@ -169,6 +169,7 @@ public class FlightAppTest {
      */
     @Test
     public void flightService_GetAllFlightsTest(){
+        //
         List<Flight> allFlightsReturned = new ArrayList<>();
         allFlightsReturned.add(new Flight(801, "tampa", "dallas"));
         allFlightsReturned.add(new Flight(802, "tampa", "morgantown"));
